@@ -309,10 +309,6 @@ a {
     width: 100px;
     background-color: #199872;
 }
-
-
-
-
 .zhong2{
     width: 750px;
     height: 450px;
@@ -320,7 +316,6 @@ a {
     margin: -20px 15px;
     float: left;
 }
-
 .zhong3{
     width: 750px;
     height: 430px;
@@ -328,7 +323,6 @@ a {
     margin: 45px 15px;
     float: left;
 }
-
 .zhong4{
     width: 750px;
     height: 430px;
@@ -336,7 +330,6 @@ a {
     margin: -15px 15px;
     float: left;
 }
-
 .zhong5{
     width: 750px;
     height: 430px;
@@ -496,8 +489,8 @@ a {
 }
 .dibu-weixing{
     width: 40px;
-    border-radius: 50%;
     float: left;
+    border-radius: 50%;
     text-align: center;
     line-height: 40px;
     margin: 25px 10px;
