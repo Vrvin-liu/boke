@@ -10,10 +10,7 @@
 a{
     text-decoration: none;
 }
-.zhengti{
-    width: 100%;
-    height: 100%;
-}
+/* 导航栏 */
 .header{
     width: 100%;
     height: 80px;
@@ -22,91 +19,88 @@ a{
     top: 0;
 }
 .nav{
-    width: 1140px;
+    width: 1240px;
     height: 80px;
     margin: 0 auto;
+    display: flex;
 }
 .logo{
-    width: 240px;
-    float: left;
-
+    width: 220px;
+    height: 80px;
+    display: flex;
 }
-.logo img{
+.logo>a>img{
     width: 46px;
     height: 46px;
-    border-radius: 50% ;
-    display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
 }
-.logotitle{
+.logo>section{
+    margin-left: 10px;
     font-size: 25px;
-    text-align: center;
     line-height: 80px;
 }
-.logo a{
-    color: black;
+.logo>section>a{
+    color: #223034;
 }
-
-.daohuang{
-    float: left;
-    line-height: 80px;
+.nav-middle{
+    width: 695px;
+    height: 80px;
+    display: flex;
 }
-.daohuang ul a{
-    color: rgb(61, 62, 65);
-}
-.daohuang ul li{
-    list-style: none;
-    float: left;
-    margin: 0 8px;
+.nav-middle>section{
+    width: 100px;
     text-align: center;
-    font-size: 14px;
-}
-.daohuang>ul>li>a:hover{
-    color: #317fc4;
-}
-.laba{
-    width: 300px;
-    float: right;
     line-height: 80px;
+    font-size: 15px;
 }
-.tubiao{
-    float: right;
+.nav-middle>section>a{
+    color: #48494D;
 }
-.icon-search{
-    color: #252629;
-    font-size: 18px;
+.nav-middle>section>a:hover{
+    color: #00BBD9;
 }
-.icon-laba{
-    color: #252629;
-    font-size: 18px;
+.nav-right{
+    width: 290px;
+    height: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
 }
-
-.shugang{
-    color: #E5E5E5;
-    margin: 0 10px;
+.icon-top{
+    width: 80px;
+    display: flex;
+    line-height: 80px;
+    position: relative;
 }
-.denglu{
-    width: 140px;
-    float: right;
-    margin-left: 30px;
+.icon-top>section{
+    margin: 0 15px;
 }
-.denglu>ul>li>a:hover{
-    color: #337ab7;
-}
-.denglu>ul>li{
-    width: 35px;
-    float: left;
-    list-style: none;
-    font-size: 16px;
-    text-align: center;
-}
-.denglu>ul>li>a{
-    color: #48494d;
-}
-.shugang2{
+.icon-top>section>a{
     color: #E5E5E5;
 }
+.icon-top>a{
+    color: #252629;
+    position: relative;
+}
+.login-register{
+    display: flex;
+    line-height: 80px;
+}
+.login-register>section{
+    width: 50px;
+    text-align: center;
+}
+.login-register>section>a{
+    color: #48494D;
+}
+.login-register>p{
+    color: #E5E5E5;
+}
+.login-register>section>a:hover{
+    color: #00BBD9;
+}
+/* 内容 */
 .content{
     width: 1903px;
     height: 3880px;
@@ -121,7 +115,7 @@ a{
     width: 750px;
     height: 450px;
     background-color: white;
-    margin: 20px 15px;
+    margin-top: 20px;
     float: left;
 }
 .tupian>a>img{
@@ -176,7 +170,8 @@ a{
     width: 360px;
     float: left;
     position: fixed;
-    left: 1130px;
+    top: 100px;
+    right: 400px;
 }
 .you{
     width: 360px;
@@ -224,7 +219,7 @@ a{
 .weibo{
     width: 310px;
     border: solid 1px #EC3D51;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 .weibo>span{
     margin-left: 10px;
@@ -254,6 +249,7 @@ a{
 .youxiang{
     width: 310px;
     border: solid 1px #2AB39A;
+    border-radius: 2px;
 }
 .youxiang>span{
     margin-left: 10px;
@@ -284,6 +280,7 @@ a{
 .weixinggongzhonghao{
     width: 310px;
     border: solid 1px #199872;
+    border-radius: 2px;
 }
 .weixinggongzhonghao::after{
     width: 80px;
@@ -314,55 +311,6 @@ a{
 .wxgzh:hover{
     width: 100px;
     background-color: #199872;
-}
-.zhong2{
-    width: 750px;
-    height: 450px;
-    background-color: white;
-    margin: -20px 15px;
-    float: left;
-}
-.zhong3{
-    width: 750px;
-    height: 430px;
-    background-color: white;
-    margin: 45px 15px;
-    float: left;
-}
-.zhong4{
-    width: 750px;
-    height: 430px;
-    background-color: white;
-    margin: -15px 15px;
-    float: left;
-}
-.zhong5{
-    width: 750px;
-    height: 430px;
-    background-color: white;
-    margin: 43px 15px;
-    float: left;
-}
-.zhong6{
-    width: 750px;
-    height: 450px;
-    background-color: white;
-    margin: -20px 15px;
-    float: left;
-}
-.zhong7{
-    width: 750px;
-    height: 450px;
-    background-color: white;
-    margin: 44px 15px;
-    float: left;
-}
-.zhong8{
-    width: 750px;
-    height: 450px;
-    background-color: white;
-    margin: -15px 15px;
-    float: left;
 }
 .turnpages{
     width: 750px;
