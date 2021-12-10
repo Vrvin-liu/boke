@@ -74,7 +74,6 @@ body{
     width: 80px;
     display: flex;
     line-height: 80px;
-    position: relative;
 }
 .icon-top>section{
     margin: 0 15px;
@@ -84,9 +83,7 @@ body{
 }
 .icon-top>a{
     color: #252629;
-    position: relative;
 }
-
 .login-register{
     display: flex;
     line-height: 80px;
