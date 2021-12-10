@@ -10,6 +10,10 @@
 a{
     text-decoration: none;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 /* 导航栏 */
 .header{
     width: 100%;
@@ -19,7 +23,7 @@ a{
     top: 0;
 }
 .nav{
-    width: 1240px;
+    width: 1200px;
     height: 80px;
     margin: 0 auto;
     display: flex;
@@ -65,7 +69,6 @@ a{
     height: 80px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start;
 }
 .icon-top{
     width: 80px;
@@ -83,6 +86,7 @@ a{
     color: #252629;
     position: relative;
 }
+
 .login-register{
     display: flex;
     line-height: 80px;
@@ -102,31 +106,30 @@ a{
 }
 /* 内容 */
 .content{
-    width: 1903px;
-    height: 3880px;
+    height: 4000px;
     background-color: #f0eded;
 }
-.kuang{
-    width: 1195px;
-    height: 4000px;
+.main{
+    width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
  .zhong{
     width: 750px;
-    height: 450px;
+    height: 460px;
     background-color: white;
     margin-top: 20px;
-    float: left;
 }
 .tupian>a>img{
     width: 710px;
     height: 284px;
-    margin: 15px 20px;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 .baipiao{
     width: 710px;
     height: 50px;
-    margin-top: -20px;
 }
 .baipiao>h2>a{
     color: #48494d;
@@ -134,8 +137,8 @@ a{
     margin: 10px 20px;
     float: left;
 }
-.zhong>h2>a:hover{
-    color: rgb(27, 80, 179);
+.baipiao>h2>a:hover{
+    color: #00BBD9;
 }
 .text{
     margin: 10px 20px;
@@ -143,7 +146,7 @@ a{
     color: #525252;
 }
 .xiaotubiao{
-    width: 750px;
+    width: 710px;
     height: 40px;
     margin: 20px;
 }
@@ -168,7 +171,7 @@ a{
 }
 .right-content{
     width: 360px;
-    float: left;
+    height: 524px;
     position: fixed;
     top: 100px;
     right: 400px;
@@ -212,7 +215,7 @@ a{
     height: 15px;
     border-top: solid 2px black;
 }
-.hengxie:hover{
+.youxia:hover .hengxie{
     width: 310px;
     border-top: solid 2px black;
 }
@@ -315,7 +318,7 @@ a{
 .turnpages{
     width: 750px;
     background-color: #f0eded;
-    margin-top: 40px;
+    margin-top: 30px;
     float: left;
     text-align: center;
 }
@@ -373,7 +376,6 @@ a{
 }
 .bottom-k{
     width: 1205px;
-    /* float: right; */
     margin: 0 auto;
 }
 .banquan{
